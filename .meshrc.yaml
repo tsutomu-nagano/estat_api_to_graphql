@@ -1,0 +1,9 @@
+sources:
+  - name: eStatAPI
+    handler:
+      openapi:
+        endpoint: https://api.e-stat.go.jp/
+        source: ./e-statapiv3.0.json
+
+serve:
+  hostname: 0.0.0.0 

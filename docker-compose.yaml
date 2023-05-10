@@ -1,0 +1,15 @@
+version: "3"
+services:
+  mesh:
+    container_name: "graphql-mesh"
+    build: .
+    image: estatapi-to-grapql-docker:test
+    restart: always
+    tty: true
+
+    volumes:
+      - "./e-statapiv3.0.json:/app/e-statapiv3.0.json"
+
+    ports:
+      - 3000:3000
+      - 4000:4000
