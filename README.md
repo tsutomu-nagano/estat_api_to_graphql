@@ -3,9 +3,9 @@ e-Stat API を graphqlにしてみる
 
 # overview
 - e-Stat API を graphql化してみる
-- 実装はOpenAPIのスキーマ定義を基にgraphqlの定義を生成できるgraphql-meshを利用
+- 実装はOpenAPIのスキーマ定義を基にgraphqlの定義を生成できるgraphql-meshを利用  
 https://the-guild.dev/graphql/mesh
-- 
+- e-Stat API の OpenAPIのスキーマ定義はVer 3.0を使用
 
 
 # QuickStart
